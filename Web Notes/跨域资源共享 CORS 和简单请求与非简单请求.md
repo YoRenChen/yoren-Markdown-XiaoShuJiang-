@@ -25,7 +25,7 @@ CORS请求方式为简单请求和非简单请求
 		- Content-Language
 		- Last-Event-ID
 		- Content-Type(限于application/x-www-form-urlencoded、multipart/form-data、text/plain)
-- 非简单请求（不满足以上要求）
+- 非简单请求（不满足以上两个要求）
 
 ## 简单请求
 对于简单请求，浏览器会在请求头部加上【Origin】字段说明来自哪个源（协议+域名+端口），服务器根据这个值决定是否允许请求（如果来源不满足访问条件服务器会返回提示CORS错误）。
