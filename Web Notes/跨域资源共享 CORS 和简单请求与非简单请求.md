@@ -4,6 +4,7 @@ tags: CORS,请求
 grammar_cjkRuby: true
 ---
 
+[toc]
 
 ### CORS是一个W3C标准
 CORS全称是"跨域资源共享"（Cross-origin resource sharing），允许浏览器向跨源服务器，发出XMLHttpRequest请求，从而克服了AJAX只能同源使用的限制。
