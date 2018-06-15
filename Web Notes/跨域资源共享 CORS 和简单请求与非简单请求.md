@@ -42,6 +42,8 @@ xhr.setRequestHeader('Authorization', 'token');
 【Response Headers】由服务器返回
 除了【Origin】还会检测【Access-Control-Request-Method】和【Access-Control-Request-Headers】
 
+### 待更新 - 解决跨域问题
+
 
   [1]: ./images/1529039060829.jpg
   [2]: ./images/1529043163794.jpg
