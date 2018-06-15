@@ -45,6 +45,12 @@ xhr.setRequestHeader('Authorization', 'token');
 
 ## 待更新 - 解决跨域问题
 
+## 参考链接
+[跨域资源共享 CORS 详解 - 阮一峰][3]
+[cors跨域之简单请求与预检请求（发送请求头带令牌token）][4]
+
 
   [1]: ./images/1529039060829.jpg
   [2]: ./images/1529043163794.jpg
+  [3]: http://www.ruanyifeng.com/blog/2016/04/cors.html
+  [4]: https://segmentfault.com/a/1190000009971254
