@@ -39,9 +39,11 @@ title: Hexo - GitHub 搭建个人博客
 ![修改config样式][6]
 
 ## 使用Hexo
-使用Hexo需要安装git和node环境
-### 安装Git Bash
+使用Hexo需要有git和node环境
+### 安装Git
+[git官网][7]
 ### 安装Node.js
+[node官网][8]
 ### 安装Hexo
 
 
@@ -51,3 +53,5 @@ title: Hexo - GitHub 搭建个人博客
   [4]: ./images/1533774601002.jpg
   [5]: ./images/1533774712034.jpg
   [6]: ./images/1533774834155.jpg
+  [7]: https://gitforwindows.org/
+  [8]: https://nodejs.org/en/
