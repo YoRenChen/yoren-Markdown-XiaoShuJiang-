@@ -6,6 +6,7 @@ grammar_cjkRuby: true
 
 
 发现windows系统下也有tree指令，不过这个指令功能目前只有两个：
+
 ![][1]
 ### 基本操作有：`tree (检索路径) /f`
 ### 打印日志方法： `tree (检索路径) /f >(输出路径)tree.text`
