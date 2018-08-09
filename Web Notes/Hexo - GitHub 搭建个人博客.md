@@ -31,14 +31,27 @@ title: Hexo - GitHub 搭建个人博客
 使用Hexo需要有git和node环境
 ### 安装Git
 [git官网][7]
-安装之后查看版本(命令行)：`git -v`
+安装之后查看版本(命令行)：`- git -v`
 安装完成之后，右键会多一个Git bash的选项
 ### 安装Node.js
 [node官网][8]
-安装之后查看版本(命令行)：`node -v`
+安装之后查看版本(命令行)：`- node -v`
 ### 安装Hexo
 在需要安放Hexo的文件夹右键git bash
-![enter description here][9]
+安装hexo: `- npm i hexo-cli -g`
+查看版本： `- hexo -v`
+### 初始化
+`- hexo init`
+文件目录：
+├── node_modules    依赖包
+├── package.json    配置信息
+├── scaffolds       命令生成文章模板
+├── source          命令创建的文章
+├── themes          主题
+├── tree. md         文件目录
+├── yarn.lock       包的信息
+└── _config.yml     博客配置
+
 
 
   [1]: ./images/1533773940444.jpg
