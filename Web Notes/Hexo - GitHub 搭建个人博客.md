@@ -44,6 +44,8 @@ title: Hexo - GitHub 搭建个人博客
 `- hexo init`
 文件目录：
 ![][9]
+### Hexo 链 GitHub
+
 
 
   [1]: ./images/1533773940444.jpg
