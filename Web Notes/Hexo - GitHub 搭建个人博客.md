@@ -42,9 +42,14 @@ title: Hexo - GitHub 搭建个人博客
 使用Hexo需要有git和node环境
 ### 安装Git
 [git官网][7]
+安装之后查看版本(命令行)：`git -v`
+安装完成之后，右键会多一个Git bash的选项
 ### 安装Node.js
 [node官网][8]
+安装之后查看版本(命令行)：`node -v`
 ### 安装Hexo
+在需要安放Hexo的文件夹右键git bash
+![enter description here][9]
 
 
   [1]: ./images/1533773940444.jpg
@@ -55,3 +60,4 @@ title: Hexo - GitHub 搭建个人博客
   [6]: ./images/1533774834155.jpg
   [7]: https://gitforwindows.org/
   [8]: https://nodejs.org/en/
+  [9]: ./images/1533780524900.jpg
