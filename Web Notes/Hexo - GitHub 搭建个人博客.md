@@ -60,4 +60,4 @@ title: Hexo - GitHub 搭建个人博客
   [6]: ./images/1533774834155.jpg
   [7]: https://gitforwindows.org/
   [8]: https://nodejs.org/en/
-  [9]: ./images/1533780524900.jpg
+  [9]: ./images/1533780577135.jpg
