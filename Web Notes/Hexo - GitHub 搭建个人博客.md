@@ -43,15 +43,7 @@ title: Hexo - GitHub 搭建个人博客
 ### 初始化
 `- hexo init`
 文件目录：
-├── node_modules    依赖包
-├── package.json    配置信息
-├── scaffolds       命令生成文章模板
-├── source          命令创建的文章
-├── themes          主题
-├── tree. md         文件目录
-├── yarn.lock       包的信息
-└── _config.yml     博客配置
-
+![][9]
 
 
   [1]: ./images/1533773940444.jpg
@@ -62,4 +54,4 @@ title: Hexo - GitHub 搭建个人博客
   [6]: ./images/1533774834155.jpg
   [7]: https://gitforwindows.org/
   [8]: https://nodejs.org/en/
-  
+  [9]: ./images/1533787124449.jpg
