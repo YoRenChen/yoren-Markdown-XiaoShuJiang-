@@ -12,32 +12,21 @@ title: Hexo - GitHub 搭建个人博客
 ## 在GitHub上创建博客
 ### 创建自己的博客
 1. 创建一个新的仓库
-
 ![图1-1 创建仓库][1]
-
 2. 设置仓库名
 仓库名必须为【你的GitHub名】+【.github】+【.io】如图1-2。
-
 ![图1-2 设置仓库信息][2]
-
 3. 定义自己的风格
 这里简易定义一些自己的风格，后面会使用Hexo进行重定义，可忽略
 在YoRenChen.github.io内的【settings】-【GitHub Pages】修改主题
-
 ![图1-3 定义博客主题][3]
-
 4. 访问博客
 创建完成之后，在浏览器搜索你的博客名【yorenchen.github.io】
-
 ![图1-4 访问博客][4]
-
 5. 修改文件样式
 创建之后会发现多出了【config.yml】和【index.md】文件，下载修改主题以及其他样式，再重新上传即可。
-
 ![图1-5 下载文件][5]
-
 ![修改config样式][6]
-
 ## 使用Hexo
 使用Hexo需要有git和node环境
 ### 安装Git
@@ -60,4 +49,4 @@ title: Hexo - GitHub 搭建个人博客
   [6]: ./images/1533774834155.jpg
   [7]: https://gitforwindows.org/
   [8]: https://nodejs.org/en/
-  [9]: ./images/1533780577135.jpg
+  
