@@ -78,7 +78,7 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 执行命令：
 创建新的post：` hexo new "My New Post"`
 跑服务Run server：`hexo server`
-创建新的文件Generate static files：`hexo generate`
+生成静态文件Generate static files：`hexo generate`
 发布hexo deploy：`hexo deploy`
 
 成功之后访问GitHub发现文件已经修改
