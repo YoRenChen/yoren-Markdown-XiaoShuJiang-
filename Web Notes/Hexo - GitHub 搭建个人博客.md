@@ -65,6 +65,22 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 ![][13]
 提示以上信息说明成功
 
+### 修改Hexo配置文件
+我们尝试性修改文件，并提交到我们的GitHub上。
+详细可以查看[hexo部署][14]
+【修改配置】
+找到文件`_config.yml`修改配置
+![][15]
+配置上传到对应的地址信息
+![][16]
+【上传】
+那么我们使用什么命令上传呢，先别急。我们hexo上传git需要安装一个小插件：`npm install hexo-deployer-git --save`
+执行命令：`hexo deploy`一键部署
+成功之后访问GitHub发现文件已经修改
+![enter description here][17]
+访问[yorenchen的GitHub博客][18]
+![enter description here][19]
+
 
   [1]: ./images/1533773940444.jpg
   [2]: ./images/1533774251943.jpg
@@ -79,3 +95,9 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
   [11]: https://github.com/settings/keys
   [12]: ./images/1534511774763.jpg
   [13]: ./images/1534511974640.jpg
+  [14]: https://hexo.io/zh-cn/docs/deployment.html
+  [15]: ./images/1534512195725.jpg
+  [16]: ./images/1534512224391.jpg
+  [17]: ./images/1534512808865.jpg
+  [18]: https://yorenchen.github.io/
+  [19]: ./images/1534512749755.jpg
