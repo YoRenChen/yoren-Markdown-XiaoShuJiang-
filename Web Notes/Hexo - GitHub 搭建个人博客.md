@@ -44,8 +44,26 @@ title: Hexo - GitHub 搭建个人博客
 `- hexo init`
 文件目录：
 ![][9]
-### Hexo 链 GitHub
+### Hexo 连接 GitHub
+连接需要GitHub提供在本地上传文件的权限，也就是SSH Keys。
+同时需要在本地生成ssh key。
+【设置本地GitHub账户信息绑定】
 
+``` 
+git config --global user.name "你的GitHub用户名"
+git config --global user.email "你的GitHub注册邮箱"
+```
+【生成ssh key】
+``` 
+ssh-keygen -t rsa -C "你的GitHub注册邮箱"
+```
+生成之后在.ssh文件找到对应文件id_rsa.pub（这个为公钥），复制上面内容
+![][10]
+在[https://github.com/settings/keys][11] 上新建ssh key
+![][12]
+查询是否成功，本地使用git bash输入`ssh git@github.com`
+![][13]
+提示以上信息说明成功
 
 
   [1]: ./images/1533773940444.jpg
@@ -57,3 +75,7 @@ title: Hexo - GitHub 搭建个人博客
   [7]: https://gitforwindows.org/
   [8]: https://nodejs.org/en/
   [9]: ./images/1533787124449.jpg
+  [10]: ./images/1534511712767.jpg
+  [11]: https://github.com/settings/keys
+  [12]: ./images/1534511774763.jpg
+  [13]: ./images/1534511974640.jpg
