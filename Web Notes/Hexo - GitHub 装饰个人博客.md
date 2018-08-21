@@ -10,3 +10,9 @@ grammar_cjkRuby: true
 2. 怎么进行装饰
 
 ## 深入了解Hexo
+
+## 使用NexT修饰
+[NexT官网][1]
+
+
+  [1]: https://theme-next.iissnan.com/getting-started.html
