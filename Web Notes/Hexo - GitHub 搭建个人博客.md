@@ -2,6 +2,7 @@
 title: Hexo - GitHub 搭建个人博客
 ---
 
+[toc]
 
 ## 简介
 利用GitHub上的空间和功能可以快速搭建起个人的博客，其次Hexo更加简便地控制样式。
