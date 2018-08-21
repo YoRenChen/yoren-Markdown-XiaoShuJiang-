@@ -1,6 +1,6 @@
 ---
 title: Hexo - GitHub 装饰个人博客
-tags: 新建,模板,小书匠
+tags: hexo, GitHub, 个人博客建设
 grammar_cjkRuby: true
 ---
 
