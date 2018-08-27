@@ -28,7 +28,7 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 【下载】
 前往 [发布页][2] 下载版本；
-解压所下载的压缩包至站点的 themes 目录下， 并将解压后的文件夹名称（hexo-theme-next-x.x.x）更改为 next。
+解压所下载的压缩包至站点的 themes 目录下， 并将解压后的文件夹名称**hexo-theme-next-x.x.x更改为 next**。
 
 ### 使用
 与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 **站点配置文件**， 找到 `theme` 字段，并将其值更改为 `next`。
