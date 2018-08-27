@@ -16,6 +16,16 @@ grammar_cjkRuby: true
 
 ## 使用NexT装饰
 [NexT官网][1]
-
+使用NexT的原因是精简。
+### 下载NexT
+【克隆】在终端窗口下，定位到 Hexo 站点目录下。使用 Git checkout 代码：
+``` stylus
+$ cd your-hexo-site
+$ git clone https://github.com/iissnan/hexo-theme-next themes/next
+```
+【下载】
+[前往发布页，下载版本][2]
+解压所下载的压缩包至站点的 themes 目录下， 并将 解压后的文件夹名称（hexo-theme-next-0.4.0）更改为 next。
 
   [1]: https://theme-next.iissnan.com/getting-started.html
+  [2]: https://github.com/iissnan/hexo-theme-next/releases
