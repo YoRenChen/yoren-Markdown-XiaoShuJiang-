@@ -34,6 +34,8 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 1. 解压所下载的压缩包至站点的 themes 目录下， 并将解压后的文件夹名称**hexo-theme-next-x.x.x更改为 next**，否则运行的时候会白屏，debug会提示`No layout: index.html`。
 2. 与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 **站点配置文件**， 找到 `theme` 字段，并将其值更改为 `next`。
 
+### 调试
+使用`hexo debug`进行本地调试
 跟换的时候最好使用 hexo clean 来清除 Hexo 的缓存。
 
   [1]: https://theme-next.iissnan.com/getting-started.html
