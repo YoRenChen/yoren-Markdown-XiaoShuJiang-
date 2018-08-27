@@ -47,7 +47,7 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 ### 首页文章不显示全文
 - 项目的themes/next目录
-- 打开 **config.yml**文件，修改**auto_excerpt**里的**enable**为false
+- 打开 **config.yml**文件，修改**auto_excerpt**里的**enable**为true
 
 
 
