@@ -89,9 +89,20 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 
 ### 本地调试
 ``` 
-$ hexo clean
-$ hexo g
-$ hexo s --debug
+hexo clean
+hexo g
+hexo s --debug
+```
+### 常用命令
+
+``` stylus
+hexo new "postName"  #新建文章
+hexo new page "pageName" # 新建页面
+hexo generate # 生成静态页面至public目录
+hexo server # 开启预览访问端口(默认端口4000，'ctrl+c'关闭server)
+hexo deploy # 项目部署
+hexo help # 查看帮助
+hexo version # 查看Hexo的版本
 ```
 
 
