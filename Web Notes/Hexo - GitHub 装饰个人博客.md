@@ -24,7 +24,7 @@ $ cd your-hexo-site
 $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 【下载】
-[前往发布页，下载版本][2]
+前往 [发布页][2] 下载版本
 解压所下载的压缩包至站点的 themes 目录下， 并将 解压后的文件夹名称（hexo-theme-next-0.4.0）更改为 next。
 
   [1]: https://theme-next.iissnan.com/getting-started.html
