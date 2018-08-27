@@ -49,8 +49,10 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 - 项目的themes/next目录
 - 打开 **config.yml**文件，修改**auto_excerpt**里的**enable**为true
 
-
+### 修改首页摆放模式
+![enter description here][3]
 
 
   [1]: https://theme-next.iissnan.com/getting-started.html
   [2]: https://github.com/iissnan/hexo-theme-next/releases
+  [3]: ./images/1535389772099.jpg
