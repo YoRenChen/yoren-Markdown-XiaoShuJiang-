@@ -6,8 +6,9 @@ grammar_cjkRuby: true
 
 ## 简介
 在我们初次搭建完博客的同时，自己的博客看起来就像毛坯房一样，那么我们接下来需要按照自己的设计图进行装修，本文会带来是：
-1. 有哪些装饰手段
-2. 怎么进行装饰
+1. 哪些装饰手段
+2. next安装
+3. 如何用next进行装饰
 
 ## 深入了解Hexo
 引用NexT文章中对Hexo的配置文件的解释：
@@ -37,6 +38,19 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ### 调试
 使用`hexo debug`进行本地调试
 跟换的时候最好使用 hexo clean 来清除 Hexo 的缓存。
+
+## NexT装饰风格
+【计划】
+1.首页为独立的首页，可以展示个人信息，内容简介等。
+2.首页侧栏（标签分类，文章目录，站点概览）。
+3.首页文章预览为概要浏览而非全文
+
+### 首页文章不显示全文
+- 项目的themes/next目录
+- 打开 **config.yml**文件，修改**auto_excerpt**里的**enable**为false
+
+
+
 
   [1]: https://theme-next.iissnan.com/getting-started.html
   [2]: https://github.com/iissnan/hexo-theme-next/releases
