@@ -14,6 +14,8 @@ grammar_cjkRuby: true
 > 在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。
 为了描述方便，在以下说明中，将前者称为 **站点配置文件**， 后者称为 **主题配置文件**。
 
+这里默认的主题为**landscape**，在`themes - landscape`里。
+
 ## 使用NexT装饰
 [NexT官网][1]
 使用NexT的原因是精简。
@@ -29,7 +31,9 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 解压所下载的压缩包至站点的 themes 目录下， 并将解压后的文件夹名称（hexo-theme-next-x.x.x）更改为 next。
 
 ### 使用
-与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 站点配置文件， 找到 `theme` 字段，并将其值更改为 `next`。
+与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 **站点配置文件**， 找到 `theme` 字段，并将其值更改为 `next`。
+
+跟换的时候最好使用 hexo clean 来清除 Hexo 的缓存。
 
   [1]: https://theme-next.iissnan.com/getting-started.html
   [2]: https://github.com/iissnan/hexo-theme-next/releases
