@@ -103,6 +103,7 @@ hexo server # 开启预览访问端口(默认端口4000，'ctrl+c'关闭server)
 hexo deploy # 项目部署
 hexo help # 查看帮助
 hexo version # 查看Hexo的版本
+hexo s -debug # 本地调试
 ```
 
 
