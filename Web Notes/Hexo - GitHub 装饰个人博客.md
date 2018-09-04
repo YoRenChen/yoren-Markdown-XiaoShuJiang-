@@ -104,16 +104,28 @@ tags:
 执行：`hexo new page categories`
 ![][8]
 
-【文章添加分类】
+找到文件并添加：
 ``` stylus
 ---
-layout: page
+title: categories
+date: 2018-09-04 22:36:40
+type: "categories"
+---
+```
+【文章添加分类】
+
+``` stylus
+---
+layout: pages
 title: tessst
 date: 2018-09-04 20:21:51
 tags:
     - 123
-type: 'categories'
+categories:
+    - hexo创建标签
 ---
+```
+
 
 -------
 
