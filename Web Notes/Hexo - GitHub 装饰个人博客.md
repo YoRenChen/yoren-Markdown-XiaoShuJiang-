@@ -52,12 +52,59 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ### 修改首页摆放模式
 ![enter description here][3]
 
-### 创建分类
+### 分类
 
-### 创建标签
+### 标签tags
+在页面上生成tags需要两个步骤：
+1.生成“标签”。
+2.文章中添加标签。
+
+【生成tags】
+执行：`hexo new page tags`
+成功之后有提示：
+![][4]
+打开文件并添加`type: 'tags'`
+
+``` stylus
+---
+title: tags
+date: 2018-09-04 20:18:43
+type: 'tags'
+---
+```
+在**config.yml**中找到menu添加`  tags: /tags` 
+![][5]
+我们就创建了tags标签。
+
+注意，如果只是在**config.yml**中添加虽然在导航栏出现，但访问会出现404。
+
+----------
+【文章添加标签】
+创建文章：`hexo new [layout(post/page/draft)] <name>` 
+添加标签：
+
+``` stylus
+---
+layout: page
+title: tessst
+date: 2018-09-04 20:21:51
+tags:
+    - 123
+---
+```
+效果：
+![enter description here][6]
+访问进去：
+![enter description here][7]
+
+---------
 
 
 
   [1]: https://theme-next.iissnan.com/getting-started.html
   [2]: https://github.com/iissnan/hexo-theme-next/releases
   [3]: ./images/1535389772099.jpg
+  [4]: ./images/1536068847445.jpg
+  [5]: ./images/1536069060347.jpg
+  [6]: ./images/1536070688519.jpg
+  [7]: ./images/1536070719368.jpg
