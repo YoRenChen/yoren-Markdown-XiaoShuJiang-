@@ -52,6 +52,11 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ### 修改首页摆放模式
 ![enter description here][3]
 
+### 创建分类
+
+### 创建标签
+
+
 
   [1]: https://theme-next.iissnan.com/getting-started.html
   [2]: https://github.com/iissnan/hexo-theme-next/releases
