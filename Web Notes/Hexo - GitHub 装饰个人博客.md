@@ -59,7 +59,6 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 【生成tags】
 执行：`hexo new page tags`
-成功之后有提示：
 ![][4]
 打开文件并添加`type: 'tags'`
 
