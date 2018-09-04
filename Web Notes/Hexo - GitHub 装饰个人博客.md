@@ -52,7 +52,9 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ### 修改首页摆放模式
 ![enter description here][3]
 
-### 分类
+### 分类Categories
+1.生成categories并添加tpye属性
+2.文章添加“Categories”属性
 
 ### 标签tags
 在页面上生成tags需要两个步骤：
