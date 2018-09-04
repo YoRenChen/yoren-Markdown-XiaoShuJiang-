@@ -104,6 +104,7 @@ hexo deploy # 项目部署
 hexo help # 查看帮助
 hexo version # 查看Hexo的版本
 hexo s -debug # 本地调试
+hexo new [layout] <title> # 创建新的文章
 ```
 
 
